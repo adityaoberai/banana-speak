@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #fde047;
+    --secondary-color: #faf5ff;
+}
+
+body {
+    font-family: 'Amatic SC', sans-serif;
+    background-color: var(--secondary-color);
+    margin: 0px;
+}
+
+#header {
+    width: 100%;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#header h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.container {
+    padding: 0 2rem;
+    text-align: center;
+    justify-items: center;
+}
+
+.btn-primary {
+    margin-top: 1rem;
+    padding: 1rem;
+    color: black;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    transition-duration: 0.3s;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: var(--secondary-color);
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    transition-duration: 0.3s;
+}
+
+.txt-block {
+    width: 70%;
+    height: 20vh;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid black;
+}
